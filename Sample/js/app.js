@@ -3,6 +3,7 @@
 const textField0 = document.getElementById("text0");
 
 // textField0.innerHTML = showStylizedScore(786);
+//looks for text 0
 const textField1 = document.getElementById("text1");
 
 //Buttons
@@ -30,6 +31,7 @@ increaseScoreButton.addEventListener("click", () => {
 //}
 //
 
+//internal Variables
 function increaseScoreByOne () {
   score++;
 }
